@@ -1,0 +1,94 @@
+---
+import Base from '../../layouts/Base.astro';
+import { locales, withBase, type Locale } from '../../i18n/utils';
+import { ui } from '../../i18n/ui';
+import { pictureCards } from '../../data/cards';
+import { questions } from '../../data/questions';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Locale;
+const t = ui[lang];
+---
+
+<Base lang={lang} title={t.gallery.title}>
+  <div class="mx-auto max-w-6xl px-4 py-10">
+    <h1 class="text-3xl font-extrabold tracking-tight">{t.gallery.title}</h1>
+
+    <h2 class="mt-8 text-xl font-bold">{t.gallery.pictures}</h2>
+    <div class="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+      {
+        pictureCards.map((card) => (
+          <button
+            type="button"
+            data-card-image={withBase(card.image)}
+            data-card-label={`${t.table.cardNo} ${card.id}`}
+            class="group relative cursor-zoom-in overflow-hidden rounded-xl shadow transition hover:-translate-y-1 hover:shadow-lg"
+          >
+            <img
+              src={withBase(card.image)}
+              alt={`${t.table.cardNo} ${card.id}`}
+              loading="lazy"
+              class="w-full"
+            />
+            <span class="absolute bottom-1.5 right-1.5 rounded-full bg-navy-900/80 px-2 py-0.5 text-xs font-bold text-white">
+              {card.id}
+            </span>
+          </button>
+        ))
+      }
+    </div>
+
+    <h2 class="mt-12 text-xl font-bold">{t.gallery.questions}</h2>
+    <div class="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+      {
+        questions.map((q) => (
+          <div class="group flex flex-col overflow-hidden rounded-lg border border-leaf-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
+            <div class="flex items-center gap-2 border-b border-leaf-100 bg-leaf-50 px-3 py-1.5">
+              <span class="flex h-6 w-6 flex-none items-center justify-center rounded-full bg-leaf-600 text-xs font-bold text-white">
+                {q.id}
+              </span>
+              <span class="text-xs font-semibold uppercase tracking-wide text-leaf-700">
+                {t.gallery.questions}
+              </span>
+            </div>
+            <p class="flex-1 px-3 py-2.5 text-sm font-semibold leading-snug text-navy-900">
+              {q.text[lang]}
+            </p>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+
+  <dialog
+    id="lightbox"
+    class="m-auto max-h-[92dvh] rounded-2xl bg-transparent p-0 backdrop:bg-navy-900/85"
+  >
+    <img id="lightbox-image" src="" alt="" class="max-h-[88dvh] rounded-xl" />
+    <form method="dialog" class="mt-2 text-center">
+      <button
+        class="rounded-full bg-white px-5 py-1.5 text-sm font-bold text-navy-900 shadow hover:bg-navy-100"
+      >
+        {t.gallery.close}
+      </button>
+    </form>
+  </dialog>
+
+  <script>
+    const dialog = document.getElementById('lightbox') as HTMLDialogElement;
+    const image = document.getElementById('lightbox-image') as HTMLImageElement;
+    document.querySelectorAll<HTMLButtonElement>('[data-card-image]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        image.src = btn.dataset.cardImage ?? '';
+        image.alt = btn.dataset.cardLabel ?? '';
+        dialog.showModal();
+      });
+    });
+    dialog.addEventListener('click', (e) => {
+      if (e.target === dialog) dialog.close();
+    });
+  </script>
+</Base>

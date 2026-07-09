@@ -1,0 +1,43 @@
+---
+import { locales, localePath, localeNames, defaultLocale } from '../i18n/utils';
+
+const targets = Object.fromEntries(locales.map((l) => [l, localePath(l)]));
+const fallback = localePath(defaultLocale);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SchoolWell Cards</title>
+    <meta name="robots" content="noindex" />
+    <noscript>
+      <meta http-equiv="refresh" content={`0;url=${fallback}`} />
+    </noscript>
+    <script is:inline define:vars={{ targets, fallback }}>
+      const stored = localStorage.getItem('schoolwell-lang');
+      const nav = (navigator.language || '').toLowerCase();
+      const lang =
+        stored && targets[stored]
+          ? stored
+          : nav.startsWith('pl')
+            ? 'pl'
+            : nav.startsWith('ro')
+              ? 'ro'
+              : 'en';
+      location.replace(targets[lang] || fallback);
+    </script>
+  </head>
+  <body>
+    <ul>
+      {
+        locales.map((l) => (
+          <li>
+            <a href={localePath(l)}>{localeNames[l]}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+---
+import { locales, localePath, switchLocalePath, withBase, type Locale } from '../i18n/utils';
+import { ui } from '../i18n/ui';
+
+interface Props {
+  lang: Locale;
+}
+
+const { lang } = Astro.props;
+const t = ui[lang];
+
+const navItems = [
+  { href: localePath(lang), label: t.nav.home },
+  { href: localePath(lang, 'cards/'), label: t.nav.cards },
+  { href: localePath(lang, 'gallery/'), label: t.nav.gallery },
+  { href: localePath(lang, 'activities/'), label: t.nav.activities },
+];
+
+const current = Astro.url.pathname.replace(/\/+$/, '/');
+const isActive = (href: string) => {
+  const clean = href.replace(/\/+$/, '/');
+  return clean === localePath(lang) ? current === clean : current.startsWith(clean);
+};
+---
+
+<header class="bg-navy-800 text-white">
+  <div class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
+    <a href={localePath(lang)} class="flex items-center gap-2 text-lg font-bold tracking-tight">
+      <img src={withBase('favicon.svg')} alt="" class="h-7 w-7" />
+      {t.siteName}
+    </a>
+    <nav class="flex flex-wrap items-center gap-1 text-sm">
+      {
+        navItems.map((item) => (
+          <a
+            href={item.href}
+            class:list={[
+              'rounded-full px-3 py-1.5 font-medium transition-colors',
+              isActive(item.href) ? 'bg-white/15 text-white' : 'text-navy-100 hover:bg-white/10',
+            ]}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+    <div class="ms-auto flex items-center gap-1 text-xs font-semibold uppercase">
+      {
+        locales.map((l) => (
+          <a
+            href={switchLocalePath(Astro.url.pathname, l)}
+            data-lang-switch={l}
+            aria-current={l === lang ? 'true' : undefined}
+            class:list={[
+              'rounded px-2 py-1 transition-colors',
+              l === lang ? 'bg-leaf-500 text-navy-900' : 'text-navy-100 hover:bg-white/10',
+            ]}
+          >
+            {l}
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</header>
+
+<script>
+  // Remember the language choice for the root redirect page.
+  document.querySelectorAll<HTMLAnchorElement>('[data-lang-switch]').forEach((a) => {
+    a.addEventListener('click', () => {
+      const lang = a.dataset.langSwitch;
+      if (lang) localStorage.setItem('schoolwell-lang', lang);
+    });
+  });
+</script>

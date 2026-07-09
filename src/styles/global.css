@@ -1,0 +1,43 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  /* Navy of the blue deck / card backs */
+  --color-navy-50: #eef2fb;
+  --color-navy-100: #d9e1f5;
+  --color-navy-200: #b3c3ea;
+  --color-navy-600: #1e3f8f;
+  --color-navy-700: #16306f;
+  --color-navy-800: #102552;
+  --color-navy-900: #0b1a3c;
+  /* Green of the question deck */
+  --color-leaf-50: #eefbf1;
+  --color-leaf-100: #d6f5df;
+  --color-leaf-200: #aeeac0;
+  --color-leaf-400: #35d968;
+  --color-leaf-500: #1fc94f;
+  --color-leaf-600: #16a53f;
+  --color-leaf-700: #0f7d30;
+  /* Cream panel used on the physical green cards */
+  --color-cream: #f5f0e1;
+}
+
+@keyframes card-flip-in {
+  from {
+    transform: rotateY(90deg) scale(0.92);
+    opacity: 0.4;
+  }
+  to {
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+.card-flip-in {
+  animation: card-flip-in 0.45s ease-out;
+  transform-style: preserve-3d;
+}
+
+.card-perspective {
+  perspective: 1200px;
+}

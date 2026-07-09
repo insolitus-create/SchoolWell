@@ -1,0 +1,118 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { locales, localePath, type Locale } from '../../../i18n/utils';
+import { ui } from '../../../i18n/ui';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Locale;
+const t = ui[lang];
+
+const activities = (await getCollection('activities', (e) => e.id.startsWith(`${lang}/`))).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+
+const guidelineSections = [
+  {
+    emoji: '💬',
+    title: t.activities.sayTitle,
+    items: t.activities.sayItems,
+    accent: 'bg-navy-600',
+    chip: 'bg-navy-100 text-navy-700',
+  },
+  {
+    emoji: '🌱',
+    title: t.activities.duringTitle,
+    items: t.activities.duringItems,
+    accent: 'bg-leaf-500',
+    chip: 'bg-leaf-500/15 text-leaf-700',
+  },
+  {
+    emoji: '⚠️',
+    title: t.activities.avoidTitle,
+    items: t.activities.avoidItems,
+    accent: 'bg-amber-500',
+    chip: 'bg-amber-100 text-amber-700',
+  },
+];
+---
+
+<Base lang={lang} title={t.activities.title}>
+  <section class="bg-navy-800 py-14 text-white">
+    <div class="mx-auto max-w-6xl px-6">
+      <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl">{t.activities.title}</h1>
+      <p class="mt-4 max-w-2xl text-lg text-navy-100">{t.activities.lead}</p>
+    </div>
+  </section>
+
+  <div class="mx-auto max-w-6xl px-6 py-16">
+    <div class="mb-12">
+      <h2 class="text-2xl font-bold tracking-tight text-navy-900">
+        {t.activities.guidelinesTitle}
+      </h2>
+      <div class="mt-6 grid grid-cols-1 gap-6 md:grid-cols-3">
+        {
+          guidelineSections.map((section) => (
+            <section class="flex flex-col overflow-hidden rounded-3xl border border-navy-100 bg-white shadow-sm">
+              <div class={`h-1.5 w-full ${section.accent}`} />
+              <div class="flex flex-1 flex-col p-7">
+                <h3 class="flex items-start gap-2.5 text-base font-bold text-navy-900">
+                  <span class="text-xl leading-6" aria-hidden="true">
+                    {section.emoji}
+                  </span>
+                  <span>{section.title}</span>
+                </h3>
+                <ul class="mt-5 flex flex-col gap-3 text-[15px] leading-relaxed text-navy-700">
+                  {section.items.map((item) => (
+                    <li class="flex gap-3">
+                      <span class={`mt-2 h-1.5 w-1.5 shrink-0 rounded-full ${section.accent}`} />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+          ))
+        }
+      </div>
+    </div>
+
+    <h2 class="text-2xl font-bold tracking-tight text-navy-900">{t.activities.title}</h2>
+    <div class="mt-6 grid grid-cols-1 gap-5 md:grid-cols-2">
+      {
+        activities.map((activity, index) => {
+          const slug = activity.id.split('/').slice(1).join('/');
+          return (
+            <a
+              href={localePath(lang, `activities/${slug}/`)}
+              class="group flex items-center gap-5 rounded-3xl border border-navy-100 bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-1 hover:border-leaf-500/50 hover:shadow-xl"
+            >
+              <span class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-navy-800 text-xl font-extrabold text-white transition duration-200 group-hover:bg-leaf-600">
+                {index + 1}
+              </span>
+              <span class="flex min-w-0 flex-1 flex-col gap-2.5">
+                <span class="text-lg font-bold leading-tight text-navy-900 transition group-hover:text-leaf-700">
+                  {activity.data.title}
+                </span>
+                <span class="flex flex-wrap gap-2">
+                  <span class="rounded-full bg-navy-100 px-3 py-1 text-xs font-semibold text-navy-700">
+                    {activity.data.format}
+                  </span>
+                  <span class="rounded-full bg-leaf-500/15 px-3 py-1 text-xs font-semibold text-leaf-700">
+                    {activity.data.time}
+                  </span>
+                </span>
+              </span>
+              <span class="shrink-0 text-2xl text-navy-200 transition duration-200 group-hover:translate-x-1 group-hover:text-leaf-600">
+                →
+              </span>
+            </a>
+          );
+        })
+      }
+    </div>
+  </div>
+</Base>
