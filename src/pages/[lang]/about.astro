@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import { locales, type Locale } from '../../i18n/utils';
+import { ui, projectNumber } from '../../i18n/ui';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Locale;
+const t = ui[lang];
+const f = t.footer;
+---
+
+<Base lang={lang} title={t.about.title} description={t.about.lead}>
+  <div class="mx-auto max-w-3xl px-4 py-10">
+    <h1 class="text-3xl font-extrabold tracking-tight">{t.about.title}</h1>
+    <p class="mt-6 text-lg leading-relaxed">{t.about.lead}</p>
+
+    <h2 class="mt-10 text-xl font-bold">{t.about.programmeTitle}</h2>
+    <dl class="mt-4 divide-y divide-navy-100 rounded-xl border border-navy-100 bg-white text-sm">
+      <div class="flex flex-col gap-1 px-5 py-3 sm:flex-row sm:gap-4">
+        <dt class="font-semibold text-navy-600 sm:w-40 sm:flex-none">Erasmus+</dt>
+        <dd>{f.programme}</dd>
+      </div>
+      <div class="flex flex-col gap-1 px-5 py-3 sm:flex-row sm:gap-4">
+        <dt class="font-semibold text-navy-600 sm:w-40 sm:flex-none">{f.projectNoLabel}</dt>
+        <dd class="font-semibold">{projectNumber}</dd>
+      </div>
+      <div class="flex flex-col gap-1 px-5 py-3 sm:flex-row sm:gap-4">
+        <dt class="font-semibold text-navy-600 sm:w-40 sm:flex-none">{t.about.partnersTitle}</dt>
+        <dd>{f.coordinator}</dd>
+      </div>
+    </dl>
+  </div>
+</Base>

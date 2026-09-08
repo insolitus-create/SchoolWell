@@ -1,0 +1,59 @@
+---
+import { withBase, type Locale } from '../i18n/utils';
+import { ui, projectNumber, licenceUrl } from '../i18n/ui';
+
+interface Props {
+  lang: Locale;
+}
+
+const { lang } = Astro.props;
+const t = ui[lang];
+const f = t.footer;
+---
+
+<footer class="mt-12 bg-navy-800 text-navy-200">
+  <div class="mx-auto max-w-6xl px-4 py-6">
+    <div class="flex flex-wrap items-center justify-between gap-x-8 gap-y-4">
+      <!-- Project identity -->
+      <div class="text-xs leading-relaxed">
+        <p class="text-sm font-bold text-white">{f.strapline}</p>
+        <p>{f.programme}</p>
+        <p>
+          {f.projectNoLabel}: <span class="font-medium text-white">{projectNumber}</span> · {f.coordinator}
+        </p>
+      </div>
+
+      <!-- EU funding: official emblem on a white field, plus the funding statement -->
+      <div class="text-xs">
+        <div class="inline-block rounded bg-white p-2">
+          <img
+            src={withBase('logo_eu.png')}
+            alt={f.euAlt}
+            width="4119"
+            height="919"
+            class="h-auto w-40 max-w-full"
+          />
+        </div>
+        <p class="mt-1.5 font-medium text-white">{f.funding}</p>
+      </div>
+    </div>
+
+    <!-- Licence + official Erasmus+ / EU disclaimer, reproduced verbatim -->
+    <div class="mt-5 space-y-1.5 border-t border-white/15 pt-4 text-xs leading-relaxed">
+      <p>
+        {f.licenceText}
+        {' '}
+        <a
+          href={licenceUrl}
+          rel="license noopener noreferrer"
+          target="_blank"
+          class="text-white underline underline-offset-2 hover:text-leaf-400"
+        >
+          {licenceUrl}
+        </a>
+      </p>
+      <p>{f.licenceExclusion}</p>
+      <p>{f.disclaimer}</p>
+    </div>
+  </div>
+</footer>

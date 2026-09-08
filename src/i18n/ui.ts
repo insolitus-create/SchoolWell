@@ -3,7 +3,14 @@ import type { Locale } from './utils';
 export interface UIStrings {
   siteName: string;
   tagline: string;
-  nav: { home: string; cards: string; gallery: string; activities: string };
+  nav: {
+    home: string;
+    cards: string;
+    gallery: string;
+    activities: string;
+    about: string;
+    downloads: string;
+  };
   home: {
     lead: string;
     cardsTitle: string;
@@ -49,13 +56,47 @@ export interface UIStrings {
     goals: string;
     back: string;
   };
+  footer: {
+    /** "SchoolWell – Promoting well-being at school" */
+    strapline: string;
+    /** Erasmus+ action, kept in the official English wording. */
+    programme: string;
+    projectNoLabel: string;
+    coordinator: string;
+    /** Alt text for the official EU emblem. */
+    euAlt: string;
+    /** Short funding statement shown next to the emblem. */
+    funding: string;
+    fundingTitle: string;
+    /** Official disclaimer — must be reproduced verbatim. */
+    disclaimer: string;
+    licenceTitle: string;
+    /** Official licence statement — must be reproduced verbatim. */
+    licenceText: string;
+    licenceName: string;
+    /** Third-party materials (EU emblem etc.) are not covered by CC BY. */
+    licenceExclusion: string;
+  };
+  about: { title: string; lead: string; partnersTitle: string; programmeTitle: string };
+  downloads: { title: string; lead: string; empty: string };
 }
+
+/** Erasmus+ identifiers stay untranslated across every locale. */
+export const projectNumber = '2025-1-PL01-KA210-SCH-000356998';
+export const licenceUrl = 'https://creativecommons.org/licenses/by/4.0/';
 
 export const ui: Record<Locale, UIStrings> = {
   en: {
     siteName: 'SchoolWell Cards',
     tagline: 'Emotion cards for conversations in the classroom',
-    nav: { home: 'Home', cards: 'Card table', gallery: 'Gallery', activities: 'Activities' },
+    nav: {
+      home: 'Home',
+      cards: 'Card table',
+      gallery: 'Gallery',
+      activities: 'Activities',
+      about: 'About the project',
+      downloads: 'Downloads',
+    },
     home: {
       lead: 'A digital version of the SchoolWell emotion cards — 22 picture cards and 18 question cards that help students talk about emotions, needs, and relationships.',
       cardsTitle: 'Card table',
@@ -117,11 +158,46 @@ export const ui: Record<Locale, UIStrings> = {
       goals: 'Goals',
       back: 'All activities',
     },
+    footer: {
+      strapline: 'SchoolWell – Promoting well-being at school',
+      programme: 'Erasmus+ KA210-SCH – Small-scale partnerships in school education',
+      projectNoLabel: 'Project No.',
+      coordinator: 'Insolitus – Europejska Fundacja Wspierania Edukacji',
+      euAlt: 'Co-funded by the European Union',
+      funding: 'Co-Funded by the European Union.',
+      fundingTitle: 'EU funding',
+      disclaimer:
+        'Co-Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the Foundation for the Development of the Education System (FRSE). Neither the European Union nor FRSE can be held responsible for them.',
+      licenceTitle: 'Licence',
+      licenceText:
+        'The SchoolWell materials are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).',
+      licenceName: 'Creative Commons Attribution 4.0 International (CC BY 4.0)',
+      licenceExclusion:
+        'This licence does not cover third-party materials, including the European Union emblem, which remain subject to their own terms of use.',
+    },
+    about: {
+      title: 'About the project',
+      lead: 'SchoolWell is an Erasmus+ small-scale partnership in school education, dedicated to promoting well-being at school.',
+      partnersTitle: 'Coordinator',
+      programmeTitle: 'Programme',
+    },
+    downloads: {
+      title: 'Downloads',
+      lead: 'Printable versions of the SchoolWell cards and materials.',
+      empty: 'Downloadable files will be published here as the project progresses.',
+    },
   },
   pl: {
     siteName: 'SchoolWell Cards',
     tagline: 'Karty emocji do rozmów w klasie',
-    nav: { home: 'Start', cards: 'Stół z kartami', gallery: 'Galeria', activities: 'Aktywności' },
+    nav: {
+      home: 'Start',
+      cards: 'Stół z kartami',
+      gallery: 'Galeria',
+      activities: 'Aktywności',
+      about: 'O projekcie',
+      downloads: 'Do pobrania',
+    },
     home: {
       lead: 'Cyfrowa wersja kart emocji SchoolWell — 22 karty z ilustracjami i 18 kart z pytaniami, które pomagają uczniom rozmawiać o emocjach, potrzebach i relacjach.',
       cardsTitle: 'Stół z kartami',
@@ -183,11 +259,46 @@ export const ui: Record<Locale, UIStrings> = {
       goals: 'Cele',
       back: 'Wszystkie aktywności',
     },
+    footer: {
+      strapline: 'SchoolWell – Promowanie dobrostanu w szkole',
+      programme: 'Erasmus+ KA210-SCH – Partnerstwa na małą skalę w edukacji szkolnej',
+      projectNoLabel: 'Nr projektu',
+      coordinator: 'Insolitus – Europejska Fundacja Wspierania Edukacji',
+      euAlt: 'Dofinansowane przez Unię Europejską',
+      funding: 'Dofinansowane ze środków UE.',
+      fundingTitle: 'Finansowanie UE',
+      disclaimer:
+        'Dofinansowane ze środków UE. Wyrażone poglądy i opinie są jedynie opiniami autora lub autorów i niekoniecznie odzwierciedlają poglądy i opinie Unii Europejskiej lub Fundacji Rozwoju Systemu Edukacji. Unia Europejska ani Fundacja Rozwoju Systemu Edukacji nie ponoszą za nie odpowiedzialności.',
+      licenceTitle: 'Licencja',
+      licenceText:
+        'Materiały SchoolWell są dostępne na licencji Creative Commons Uznanie autorstwa 4.0 Międzynarodowa (CC BY 4.0).',
+      licenceName: 'Creative Commons Uznanie autorstwa 4.0 Międzynarodowa (CC BY 4.0)',
+      licenceExclusion:
+        'Licencja nie obejmuje materiałów osób trzecich, w tym emblematu Unii Europejskiej, które podlegają własnym warunkom używania.',
+    },
+    about: {
+      title: 'O projekcie',
+      lead: 'SchoolWell to partnerstwo na małą skalę w edukacji szkolnej w programie Erasmus+, poświęcone promowaniu dobrostanu w szkole.',
+      partnersTitle: 'Koordynator',
+      programmeTitle: 'Program',
+    },
+    downloads: {
+      title: 'Do pobrania',
+      lead: 'Wersje kart i materiałów SchoolWell do wydruku.',
+      empty: 'Pliki do pobrania będą publikowane tutaj w miarę postępów projektu.',
+    },
   },
   ro: {
     siteName: 'SchoolWell Cards',
     tagline: 'Carduri cu emoții pentru conversații în clasă',
-    nav: { home: 'Acasă', cards: 'Masa cu carduri', gallery: 'Galerie', activities: 'Activități' },
+    nav: {
+      home: 'Acasă',
+      cards: 'Masa cu carduri',
+      gallery: 'Galerie',
+      activities: 'Activități',
+      about: 'Despre proiect',
+      downloads: 'Descărcări',
+    },
     home: {
       lead: 'Versiunea digitală a cardurilor cu emoții SchoolWell — 22 de carduri cu ilustrații și 18 carduri cu întrebări care îi ajută pe elevi să vorbească despre emoții, nevoi și relații.',
       cardsTitle: 'Masa cu carduri',
@@ -248,6 +359,34 @@ export const ui: Record<Locale, UIStrings> = {
       time: 'Timp',
       goals: 'Obiective',
       back: 'Toate activitățile',
+    },
+    footer: {
+      strapline: 'SchoolWell – Promovarea stării de bine la școală',
+      programme: 'Erasmus+ KA210-SCH – Parteneriate la scară mică în educația școlară',
+      projectNoLabel: 'Nr. proiect',
+      coordinator: 'Insolitus – Europejska Fundacja Wspierania Edukacji',
+      euAlt: 'Finanțat de Uniunea Europeană',
+      funding: 'Finanțat de Uniunea Europeană.',
+      fundingTitle: 'Finanțare UE',
+      disclaimer:
+        'Finanțat de Uniunea Europeană. Punctele de vedere și opiniile exprimate aparțin, însă, exclusiv autorului (autorilor) și nu reflectă neapărat punctele de vedere și opiniile Agenției Executive Europene pentru Educație și Cultură (EACEA). Nici Uniunea Europeană și nici EACEA nu pot fi considerate răspunzătoare pentru acestea.',
+      licenceTitle: 'Licență',
+      licenceText:
+        'Materialele SchoolWell sunt disponibile sub licența Creative Commons Atribuire 4.0 Internațional (CC BY 4.0).',
+      licenceName: 'Creative Commons Atribuire 4.0 Internațional (CC BY 4.0)',
+      licenceExclusion:
+        'Licența nu acoperă materialele terților, inclusiv emblema Uniunii Europene, care rămân supuse propriilor condiții de utilizare.',
+    },
+    about: {
+      title: 'Despre proiect',
+      lead: 'SchoolWell este un parteneriat Erasmus+ la scară mică în educația școlară, dedicat promovării stării de bine la școală.',
+      partnersTitle: 'Coordonator',
+      programmeTitle: 'Program',
+    },
+    downloads: {
+      title: 'Descărcări',
+      lead: 'Versiuni printabile ale cardurilor și materialelor SchoolWell.',
+      empty: 'Fișierele pentru descărcare vor fi publicate aici pe măsura derulării proiectului.',
     },
   },
 };

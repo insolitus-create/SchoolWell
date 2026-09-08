@@ -1,0 +1,49 @@
+---
+import Base from '../../layouts/Base.astro';
+import { locales, type Locale } from '../../i18n/utils';
+import { ui, licenceUrl } from '../../i18n/ui';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Locale;
+const t = ui[lang];
+
+/** Downloadable files live in public/downloads/ — add entries here as they are published. */
+const files: { href: string; label: string; meta: string }[] = [];
+---
+
+<Base lang={lang} title={t.downloads.title} description={t.downloads.lead}>
+  <div class="mx-auto max-w-3xl px-4 py-10">
+    <h1 class="text-3xl font-extrabold tracking-tight">{t.downloads.title}</h1>
+    <p class="mt-6 text-lg leading-relaxed">{t.downloads.lead}</p>
+
+    {
+      files.length > 0 ? (
+        <ul class="mt-8 divide-y divide-navy-100 rounded-xl border border-navy-100 bg-white">
+          {files.map((file) => (
+            <li class="flex flex-wrap items-center gap-x-4 gap-y-1 px-5 py-3">
+              <a href={file.href} download class="font-semibold text-navy-700 underline">
+                {file.label}
+              </a>
+              <span class="text-sm text-navy-600">{file.meta}</span>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p class="mt-8 rounded-xl border border-dashed border-navy-200 bg-white px-5 py-6 text-navy-600">
+          {t.downloads.empty}
+        </p>
+      )
+    }
+
+    <p class="mt-8 text-sm text-navy-600">
+      {t.footer.licenceText}
+      {' '}
+      <a href={licenceUrl} rel="license noopener noreferrer" target="_blank" class="underline">
+        {t.footer.licenceName}
+      </a>
+    </p>
+  </div>
+</Base>
