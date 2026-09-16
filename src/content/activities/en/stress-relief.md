@@ -1,43 +1,24 @@
 ---
-title: Stress Relief
-format: individual or pair work
-time: 15–20 minutes
-goals:
-  - recognizing emotions
-  - building a sense of control
-  - exploring coping strategies
-order: 6
+title: "Reducing Stress"
+format: "Individual or pair work"
+time: "15–20 minutes"
+goal: "Recognizing sources of tension, developing emotion regulation skills and strengthening the sense of agency."
+order: 15
 ---
 
 ## Preparation
 
-- spread the cards on a table or on the floor.
+Spread the navy blue cards in the center of the table.
 
-## Steps
+## Instructions
 
-1. Say: *"Find cards that show difficult emotions, stress, or tension."*
-2. Then ask: *"Now choose a card that represents calmness, relief, or safety."*
-3. Ask the question: *"What can help someone move from one state to the other?"*
-4. Students write down ideas, discuss in pairs, or create their own action plan.
-5. Volunteers may share their ideas.
+1. Say: *“Find a card that represents stress, tension, or difficult emotions.”*
+2. Then say: *“Now choose a card that represents peace, security, or relief.”*
+3. Ask: *“What specific action can help someone move from the first state to the second?”*
+4. Students write down their ideas, discuss them in pairs, or create an individual action plan.
 
-## Variations
+## Variants
 
-### Variation 1 – Three Steps
-
-The student writes:
-
-1. What stresses me out?
-2. What can I do before a difficult situation?
-3. What helps me calm down?
-
-### Variation 2 – Path to Calm
-
-- the student draws a path between two cards,
-- and writes coping strategies along the way.
-
-### Variation 3 – My Resource
-
-- the student completes the sentence: *"It helps me when…"*
-
-> 💡 **With the digital cards:** open the **Gallery** so all pictures are visible at once, and ask students to name the numbers of a "difficult" card and a "calm" card before discussing the path between them.
+- **Option 1 – Three steps:** Students answer the questions: *“What causes me stress?”*, *“What can I do before the stress gets worse?”*, *“What helps me calm down?”*
+- **Option 2 – The path to calm:** Students draw a line connecting both cards and write down the next steps along it that might help them deal with a difficult situation.
+- **Option 3 – Support sentence:** Students complete the sentence: *“It helps me when…”*

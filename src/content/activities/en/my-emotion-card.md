@@ -1,43 +1,23 @@
 ---
-title: My Emotion Card
-format: individual work
-time: approximately 25 minutes
-goals:
-  - emotional expression and building a sense of safety
-  - developing creativity
-order: 7
+title: "My Emotion Card"
+format: "Individual creative work"
+time: "About 25 minutes"
+goal: "Creative self-expression, better understanding and integrating one’s own emotions, and strengthening one’s sense of agency."
+order: 16
 ---
 
 ## Preparation
 
-Prepare:
+Sheets of paper, markers, crayons, scissors and materials for making a collage.
 
-- paper, scissors,
-- crayons, markers,
-- magazines or colored paper.
+## Instructions
 
-## Steps
+1. Say: *“Create your own emotion card that represents a chosen feeling, a personal strength, or how you are feeling right now.”*
+2. Students give their cards a title. They can also choose one question from a green card and answer it in relation to their work.
+3. The finished cards can be voluntarily presented on the class board or put together into a shared gallery.
 
-1. Say: *"Now you will create your own emotion card."*
-2. Students may draw:
-   - an emotion, a situation, their mood,
-   - something important to them,
-   - their strength or support.
-3. After finishing, students show their cards, give them a title, and answer selected green question cards.
-4. At the end, thank everyone for their work and responses.
+## Variants
 
-## Variations
-
-### Variation 1 – My Day
-
-- the student illustrates their day or week on the card.
-
-### Variation 2 – My Superpower
-
-- the student presents a personal strength or something that gives them strength.
-
-### Variation 3 – Emotion Collage
-
-- instead of drawing, students create a collage using magazine cutouts and art materials.
-
-> 💡 **With the digital cards:** browse the **Gallery** together first for inspiration, then draw question cards on the **Card table** for students to answer about their own finished cards.
+- **Option 1 – My day:** Illustrate the course of a typical day at school, showing its different moments and the emotions that accompany them.
+- **Option 2 – My superpower:** Present your inner strength, skill or resource that helps you cope with difficulties.
+- **Option 3 – Collage:** Create an emotion card using the collage technique, using images and fragments from old magazines.

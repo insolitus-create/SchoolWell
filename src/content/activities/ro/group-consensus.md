@@ -1,43 +1,26 @@
 ---
-title: Consens în grup
-format: grupuri mici
-time: aproximativ 20 de minute
-goals:
-  - cooperare
-  - ascultarea celorlalți
-  - cunoașterea unor perspective diferite
-order: 5
+title: "Poziția comună"
+format: "Lucru în grupuri mici (3–5 persoane)"
+time: "20 de minute"
+goal: "Dezvoltarea abilităților de discuție, a ascultării active și a luării în considerare a diferitelor perspective."
+order: 12
 ---
 
 ## Pregătire
 
-- împarte clasa în grupuri de 3–5 elevi,
-- fiecare grup primește:
-  - un card bleumarin,
-  - 2–3 carduri verzi cu întrebări,
-  - o foaie de hârtie.
+Fiecare grup primește 1 cartonaș bleumarin, 2–3 cartonașe verzi și o foaie de hârtie.
 
-## Desfășurare
+## Instrucțiuni
 
-1. Spune: *„Sarcina voastră este să vă puneți de acord asupra răspunsurilor. Este important ca fiecare să aibă ocazia să își spună părerea.”*
-2. Elevii răspund pe rând la întrebări.
-3. Grupul alege răspunsuri comune sau notează idei diferite.
-4. După câteva minute, grupurile își prezintă concluziile.
-5. La final, întreabă: *„A fost greu să ajungeți la un răspuns comun?”*, *„Și-a schimbat cineva părerea după discuție?”*
+1. Spuneți: *„Sarcina voastră este să găsiți împreună răspunsuri la aceste întrebări. Asigurați-vă că toată lumea are ocazia să vorbească.”*
+2. Elevii răspund pe rând la întrebări. Grupul își notează concluziile comune, precum și diversele idei și opinii care au apărut în timpul conversației.
+3. Fiecare grup își prezintă concluziile întregii clase.
+4. La final, întrebați:
+   - *„A fost dificil să ajungeți la o înțelegere?”*
+   - *„S-a schimbat punctul de vedere al cuiva în timpul discuției?”*
 
 ## Variante
 
-### Varianta 1 – Poster
-
-- grupul își scrie răspunsurile pe o foaie mare de hârtie,
-- și adaugă cuvinte-cheie sau desene.
-
-### Varianta 2 – Hartă mentală
-
-- elevii scriu asocieri în jurul ilustrației.
-
-### Varianta 3 – Creați propria întrebare
-
-- grupul creează o întrebare suplimentară pentru card și o adresează clasei.
-
-> 💡 **Cu cardurile digitale:** trage pe **Masa cu carduri**, pe rând pentru fiecare grup, câte un card cu imagine și 2–3 întrebări; roagă grupurile să își noteze numărul cardului și întrebările înainte de discuție.
+- **Opțiunea 1 – Poster:** Notați concluziile grupului pe un poster, folosind cuvinte-cheie și simboluri.
+- **Opțiunea 2 – Hartă mentală:** Creați o hartă a asocierilor, al cărei punct de plecare va fi ilustrația din mijloc.
+- **Opțiunea 3 – Inventați propria întrebare:** Inventați o nouă întrebare pentru cartonașul ales și adresați-o unui alt grup.

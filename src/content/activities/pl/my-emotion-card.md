@@ -1,43 +1,23 @@
 ---
-title: Moja karta emocji
-format: praca indywidualna
-time: około 25 minut
-goals:
-  - wyrażanie emocji i budowanie poczucia bezpieczeństwa
-  - rozwijanie kreatywności
-order: 7
+title: "Moja karta emocji"
+format: "Indywidualna praca twórcza"
+time: "Około 25 minut"
+goal: "Twórcze wyrażanie siebie, lepsze rozumienie i integrowanie własnych emocji oraz wzmacnianie poczucia sprawczości."
+order: 16
 ---
 
 ## Przygotowanie
 
-Przygotuj:
+Kartki papieru, flamastry, kredki, nożyczki oraz materiały do wykonania kolażu.
 
-- papier, nożyczki,
-- kredki, mazaki,
-- czasopisma lub kolorowy papier.
+## Instrukcja
 
-## Przebieg
-
-1. Powiedz: *„Teraz stworzycie własną kartę emocji.”*
-2. Uczniowie mogą narysować:
-   - emocję, sytuację, swój nastrój,
-   - coś, co jest dla nich ważne,
-   - swoją mocną stronę lub wsparcie.
-3. Po skończeniu uczniowie pokazują swoje karty, nadają im tytuły i odpowiadają na wybrane zielone karty z pytaniami.
-4. Na koniec podziękuj wszystkim za pracę i odpowiedzi.
+1. Powiedz: *„Stwórzcie własną kartę emocji, która przedstawia wybrane uczucie, Waszą osobistą mocną stronę lub to, jak się obecnie czujecie.”*
+2. Uczniowie nadają swoim kartom tytuł. Mogą również wybrać jedno pytanie z karty zielonej i odpowiedzieć na nie w odniesieniu do swojej pracy.
+3. Gotowe karty można dobrowolnie zaprezentować na klasowej tablicy lub stworzyć z nich wspólną galerię.
 
 ## Warianty
 
-### Wariant 1 – Mój dzień
-
-- uczeń przedstawia na karcie swój dzień lub tydzień.
-
-### Wariant 2 – Moja supermoc
-
-- uczeń przedstawia swoją mocną stronę lub coś, co dodaje mu sił.
-
-### Wariant 3 – Kolaż emocji
-
-- zamiast rysować, uczniowie tworzą kolaż z wycinków z czasopism i materiałów plastycznych.
-
-> 💡 **Z kartami cyfrowymi:** najpierw przejrzyjcie razem **Galerię** dla inspiracji, a potem losujcie pytania na **Stole z kartami**, na które uczniowie odpowiadają, opowiadając o swoich gotowych kartach.
+- **Wariant 1 – Mój dzień:** Zilustrujcie przebieg typowego dnia w szkole, pokazując jego różne momenty i towarzyszące im emocje.
+- **Wariant 2 – Moja supermoc:** Przedstawcie swoją wewnętrzną siłę, umiejętność lub zasób, który pomaga Wam radzić sobie z trudnościami.
+- **Wariant 3 – Kolaż:** Stwórzcie kartę emocji w technice kolażu, wykorzystując obrazy i fragmenty z niepotrzebnych czasopism.

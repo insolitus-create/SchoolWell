@@ -1,42 +1,22 @@
 ---
-title: Emotion Gallery
-format: movement-based activity
-time: approximately 15 minutes
-goals:
-  - activate the group
-  - encourage conversations about emotions
-  - practice expressing opinions
-order: 2
+title: "Emotion Gallery"
+format: "Whole class / group"
+time: "About 15 minutes"
+goal: "Activating the group, sharing opinions and recognizing emotions and their own associations with illustrations."
+order: 6
 ---
 
 ## Preparation
 
-- place the navy blue cards around the room,
-- leave enough space for students to move freely.
+Spread the navy blue cards out in different places around the room, leaving enough space to move freely.
 
-## Steps
+## Instructions
 
-1. Say: *"In a moment, you will look at different illustrations. Choose one card that attracts your attention the most."*
-2. Students walk around the room and look at the illustrations.
-3. After a moment, ask everyone to stand next to their chosen card.
-4. Ask one question, for example: *"What caught your attention?"*, *"What emotion does this card show?"*, *"Why did you choose this illustration?"*
-5. Students discuss in pairs, small groups, or as a whole class.
+1. Say: *“Walk around the room, look at the illustrations, and stand next to the card that catches your eye the most.”*
+2. Once students have chosen their cards, ask: *“What caught your eye?”*, *“Why did you choose this particular illustration?”*
+3. Students talk briefly in pairs, small groups or together as a class.
 
-## Variations
+## Variants
 
-### Variation 1 – Classroom Mood
-
-Say: *"Choose a card that best represents the mood of our group today."* Students then explain their choices.
-
-### Variation 2 – Silent Gallery
-
-- students do not talk,
-- they write down their associations on sticky notes,
-- and place them next to the cards.
-
-### Variation 3 – Question Walk
-
-- place a green question card next to each illustration (the set contains 22 image cards and 18 question cards, so one question can be used for two illustrations or only selected illustrations may be used),
-- students move from image to image and answer the questions.
-
-> 💡 **With the digital cards:** project the **Gallery** so the whole class sees all 22 pictures at once, and ask each student to name the number of the card they choose. Click a card to enlarge it while discussing.
+- **Option 1 – Silent gallery:** Students silently write down their associations or impressions on sticky notes and place them next to the selected cards.
+- **Option 2 – Question walk:** Attach a green card to each illustration. Students move between the cards and discuss the questions on them.

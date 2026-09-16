@@ -1,46 +1,26 @@
 ---
-title: The Character's Story
-format: pairs or groups
-time: 15–20 minutes
-goals:
-  - develop imagination and empathy
-  - encourage cooperation
-  - practice communication skills
-order: 4
+title: "Hero’s Story"
+format: "Pair work / small group work"
+time: "15–20 minutes"
+goal: "Developing storytelling skills, empathy, and group cooperation and communication."
+order: 11
 ---
 
 ## Preparation
 
-- divide students into pairs or small groups,
-- each group receives one navy blue card.
+Each group receives 1 navy blue card.
 
-## Steps
+## Instructions
 
-1. Say: *"Your task is to create a story about the character from the illustration."*
-2. Ask the groups to answer together:
-   - Who is this character?
-   - How old are they?
-   - What might have happened?
-   - What are they feeling?
-   - What do they need?
+1. Say: *“Your task is to create a story about the character in this illustration.”*
+2. The groups reflect together on the following questions:
+   - Who is this character and what could have happened?
+   - What is the character feeling and what do they need right now?
    - What will happen next?
-3. Give the groups a few minutes to discuss.
-4. Then each group presents their story.
-5. After the presentation, you may ask the class: *"Did anyone imagine the story differently?"*
+3. Each group briefly presents their story to the class.
 
-## Variations
+## Variants
 
-### Variation 1 – Character Dialogue
-
-- the group draws two cards,
-- students create a conversation between the characters.
-
-### Variation 2 – Mini Role-Play
-
-- students act out a short scene without preparation.
-
-### Variation 3 – The Next Chapter
-
-- the group draws or describes what happened later.
-
-> 💡 **With the digital cards:** draw one picture card per group on the **Card table** (note its number), or let each group pick their card from the **Gallery**.
+- **Option 1 – Heroes’ dialogue:** Draw two navy blue cards and write a conversation between the characters depicted on them.
+- **Option 2 – Mini scene:** Act out a short, approximately 30-second improvised scene inspired by the illustration.
+- **Option 3 – Next chapter:** Draw or write a continuation of the story – a scene that could happen later.

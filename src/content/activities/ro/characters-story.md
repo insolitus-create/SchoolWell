@@ -1,46 +1,26 @@
 ---
-title: Povestea personajului
-format: perechi sau grupuri
-time: 15–20 de minute
-goals:
-  - dezvoltarea imaginației și a empatiei
-  - încurajarea cooperării
-  - exersarea abilităților de comunicare
-order: 4
+title: "Povestea eroului"
+format: "Lucru în perechi / grupuri mici"
+time: "15–20 de minute"
+goal: "Dezvoltarea abilităților de povestire, a empatiei, a cooperării și a comunicării în grup."
+order: 11
 ---
 
 ## Pregătire
 
-- împarte elevii în perechi sau grupuri mici,
-- fiecare grup primește un card bleumarin.
+Fiecare grup primește câte 1 cartonaș bleumarin.
 
-## Desfășurare
+## Instrucțiuni
 
-1. Spune: *„Sarcina voastră este să creați o poveste despre personajul din ilustrație.”*
-2. Roagă grupurile să răspundă împreună:
-   - Cine este acest personaj?
-   - Câți ani are?
-   - Ce s-ar fi putut întâmpla?
-   - Ce simte?
-   - De ce are nevoie?
+1. Spuneți: *„Sarcina voastră este să creați o poveste despre personajul din această ilustrație.”*
+2. Grupurile reflectează împreună asupra următoarelor întrebări:
+   - Cine este acest personaj și ce s-ar fi putut întâmpla?
+   - Ce simte și de ce are nevoie acum?
    - Ce se va întâmpla în continuare?
-3. Dă grupurilor câteva minute pentru discuție.
-4. Apoi fiecare grup își prezintă povestea.
-5. După prezentare, poți întreba clasa: *„Și-a imaginat cineva povestea altfel?”*
+3. Fiecare grup își prezintă pe scurt povestea în fața clasei.
 
 ## Variante
 
-### Varianta 1 – Dialogul personajelor
-
-- grupul trage două carduri,
-- elevii creează o conversație între personaje.
-
-### Varianta 2 – Mini joc de rol
-
-- elevii joacă o scenă scurtă fără pregătire.
-
-### Varianta 3 – Capitolul următor
-
-- grupul desenează sau descrie ce s-a întâmplat mai târziu.
-
-> 💡 **Cu cardurile digitale:** trage câte un card cu imagine pentru fiecare grup pe **Masa cu carduri** (notați-i numărul) sau lasă fiecare grup să își aleagă cardul din **Galerie**.
+- **Opțiunea 1 – Dialogul eroilor:** Trageți două cartonașe bleumarin și scrieți o conversație între personajele înfățișate pe ele.
+- **Opțiunea 2 – Mini scenetă:** Interpretați o scenetă improvizată scurtă, de aproximativ 30 de secunde, inspirată de ilustrație.
+- **Opțiunea 3 – Capitolul următor:** Desenați sau scrieți o continuare a poveștii – o scenă care s-ar putea întâmpla mai târziu.

@@ -7,8 +7,11 @@ const activities = defineCollection({
     title: z.string(),
     format: z.string(),
     time: z.string(),
-    goals: z.array(z.string()).min(1),
-    order: z.number().int().min(1).max(7),
+    /** Exercises 17–23 of the Teacher's Guide have no stated goal. */
+    goal: z.string().optional(),
+    /** Device the SchoolWell app is shown on, for app-based exercises. */
+    app: z.string().optional(),
+    order: z.number().int().min(1).max(23),
   }),
 });
 

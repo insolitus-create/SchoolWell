@@ -1,46 +1,24 @@
 ---
-title: Odkrywamy emocje
-format: cała klasa / grupa
-time: 10–15 minut
-goals:
-  - oswojenie uczniów z kartami
-  - zachęcenie do rozmów o emocjach
-  - rozwijanie skojarzeń i wyobraźni
-order: 1
+title: "Odkrywamy emocje"
+format: "Cała klasa / praca w grupach"
+time: "10–15 minut"
+goal: "Rozwijanie słownictwa dotyczącego emocji oraz myślenia skojarzeniowego."
+order: 5
 ---
 
 ## Przygotowanie
 
-- przygotuj talie kart granatowych i zielonych,
-- usiądźcie w kręgu lub przy stolikach,
-- przetasuj obie talie osobno.
+Przygotuj karty granatowe oraz zielone.
 
-## Przebieg
+## Instrukcja
 
-1. Powiedz uczniom: *„Za chwilę będziemy pracować z kartami emocji. Nie ma tu dobrych ani złych odpowiedzi. Każdy może odpowiedzieć po swojemu.”*
-2. Poproś jednego ucznia o wylosowanie granatowej karty.
-3. Następnie uczeń losuje jedną zieloną kartę z pytaniem.
-4. Przeczytaj pytanie na głos lub poproś ucznia o jego przeczytanie.
-5. Uczeń odpowiada, odnosząc się do ilustracji.
-6. Jeśli uczeń nie chce odpowiadać, może przekazać pytanie komuś innemu, odpowiedzieć jednym słowem lub po prostu nazwać emocję widoczną na obrazku.
-7. Po odpowiedzi podziękuj uczniowi. Możesz zadać pytania pogłębiające, np.: *„Co jeszcze zwróciło twoją uwagę?”*, *„Czy ktoś widzi to inaczej?”*
-8. Powtórz ćwiczenie z kolejnymi uczniami.
+1. Każdy uczeń losuje jedną kartę granatową.
+2. Poproś uczniów, aby przez kilka sekund przyjrzeli się ilustracji i zastanowili się: *„Co ta karta mówi mi dzisiaj?”*
+3. Następnie uczniowie dobierają się w pary i przez około minutę dzielą się swoją pierwszą myślą lub skojarzeniem.
+4. Każda para losuje jedną kartę zieloną i wspólnie odpowiada na znajdujące się na niej pytanie.
+5. Na zakończenie zapytaj: *„Czy odpowiedź na pytanie zmieniła sposób, w jaki patrzycie na wybraną kartę?”*
 
 ## Warianty
 
-### Wariant 1 – Jedna karta dla wszystkich
-
-- pokaż jedną kartę całej klasie,
-- różni uczniowie losują różne zielone karty z pytaniami i odpowiadają na nie.
-
-### Wariant 2 – Praca w parach
-
-- każda para otrzymuje jedną granatową kartę i 2–3 zielone karty z pytaniami,
-- uczniowie najpierw omawiają pytania między sobą,
-- chętni mogą później podzielić się odpowiedziami z klasą.
-
-### Wariant 3 – Szybkie skojarzenia
-
-- uczeń odpowiada tylko jednym słowem lub krótkim zdaniem.
-
-> 💡 **Z kartami cyfrowymi:** otwórz **Stół z kartami**, wyświetl go na tablicy i pozwól uczniom po kolei klikać talie — najpierw kartę z obrazkiem, potem kartę z pytaniem.
+- **Wariant 1 – Moje hasło:** Po zakończeniu uczniowie wybierają jedno słowo, które chcieliby zabrać ze sobą na dzisiejsze zajęcia.
+- **Wariant 2 – Wspólna karta:** Para wybiera jedną kartę granatową, a następnie wspólnie tworzy krótkie hasło lub zdanie, które najlepiej oddaje jej znaczenie.

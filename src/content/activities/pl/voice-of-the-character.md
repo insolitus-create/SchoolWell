@@ -1,45 +1,26 @@
 ---
-title: Głos postaci
-format: praca indywidualna lub w parach
-time: 10 minut
-goals:
-  - rozwijanie empatii
-  - ćwiczenie umiejętności wypowiadania się
-  - poznawanie różnych perspektyw
-order: 3
+title: "Głos bohatera"
+format: "Praca w parach"
+time: "10 minut"
+goal: "Rozwijanie empatii, umiejętności wyrażania myśli i uczuć oraz przyjmowania perspektywy drugiej osoby."
+order: 8
 ---
 
 ## Przygotowanie
 
-- przygotuj granatowe i zielone karty,
-- uczniowie mogą usiąść w kręgu.
+Karty granatowe. Uczniowie siedzą w parach lub w kręgu.
 
-## Przebieg
+## Instrukcja
 
-1. Uczniowie wybierają jedną postać z ilustracji.
-2. Powiedz: *„Wyobraź sobie, że jesteś tą postacią.”*
-3. Poproś ucznia o dokończenie zdania:
-   - *„Jestem z tej karty i chciałbym/chciałabym powiedzieć, że…”*
-   - *„Teraz czuję…”*
+1. Uczniowie wybierają jedną postać przedstawioną na ilustracji.
+2. Powiedz: *„Wyobraź sobie, że jesteś tą postacią. Dokończ następujące zdania:”*
+   - *„Jestem postacią z tej karty i chciałbym/chciałabym powiedzieć, że…”*
+   - *„W tej chwili czuję…”*
    - *„Potrzebuję…”*
-4. Jeśli uczniowi trudno zacząć, możesz pomóc pytaniami, np.: *„Czego boi się ta postać?”*, *„Na co czeka?”*, *„Co chciałaby usłyszeć?”*
-5. Po odpowiedzi podziękuj uczniowi i przejdź do kolejnej osoby.
+3. W przypadku trudności zachęć uczniów dodatkowymi pytaniami: *„Co ta postać chciałaby usłyszeć?”*
 
 ## Warianty
 
-### Wariant 1 – Wywiad z postacią
-
-- jedna osoba wciela się w postać z karty,
-- druga zadaje pytania jak reporter.
-
-Przykładowe pytania: *„Co się stało?”*, *„Jak się teraz czujesz?”*, *„Kto może ci pomóc?”*
-
-### Wariant 2 – List postaci
-
-- uczeń pisze kilka zdań jako postać z ilustracji.
-
-### Wariant 3 – Co będzie dalej?
-
-- uczeń kontynuuje historię postaci.
-
-> 💡 **Z kartami cyfrowymi:** wylosuj kartę z obrazkiem na **Stole z kartami** lub wybierz ją w **Galerii** i pozostaw powiększoną na ekranie, gdy uczniowie mówią głosem postaci.
+- **Wariant 1 – Wywiad z bohaterem:** Jeden uczeń wciela się w postać, a druga osoba jest reporterem i zadaje pytania, np. *„Co się wydarzyło?”* oraz *„Kto może Ci pomóc?”*
+- **Wariant 2 – List bohatera:** Uczeń pisze krótką, 3-zdaniową wiadomość z perspektywy wybranej postaci.
+- **Wariant 3 – Co wydarzy się dalej?:** Uczniowie wyobrażają sobie, co wydarzy się z bohaterem 5 minut później, i opowiadają dalszy ciąg jego historii.

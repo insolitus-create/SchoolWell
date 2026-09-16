@@ -1,43 +1,26 @@
 ---
-title: Wspólne ustalenia
-format: małe grupy
-time: około 20 minut
-goals:
-  - współpraca
-  - słuchanie innych
-  - poznawanie różnych perspektyw
-order: 5
+title: "Wspólne stanowisko"
+format: "Praca w małych grupach (3–5 osób)"
+time: "20 minut"
+goal: "Rozwijanie umiejętności prowadzenia dyskusji, aktywnego słuchania oraz uwzględniania różnych perspektyw."
+order: 12
 ---
 
 ## Przygotowanie
 
-- podziel klasę na grupy 3–5-osobowe,
-- każda grupa otrzymuje:
-  - jedną granatową kartę,
-  - 2–3 zielone karty z pytaniami,
-  - kartkę papieru.
+Każda grupa otrzymuje 1 kartę granatową, 2–3 karty zielone oraz kartkę papieru.
 
-## Przebieg
+## Instrukcja
 
-1. Powiedz: *„Waszym zadaniem jest wspólne uzgodnienie odpowiedzi. Ważne, aby każdy miał szansę podzielić się swoim zdaniem.”*
-2. Uczniowie po kolei odpowiadają na pytania.
-3. Grupa wybiera wspólne odpowiedzi lub zapisuje różne pomysły.
-4. Po kilku minutach grupy przedstawiają swoje wnioski.
-5. Na koniec zapytaj: *„Czy trudno było dojść do wspólnej odpowiedzi?”*, *„Czy ktoś zmienił zdanie po rozmowie?”*
+1. Powiedz: *„Waszym zadaniem jest wspólnie znaleźć odpowiedzi na te pytania. Zadbajcie o to, aby każdy miał możliwość zabrania głosu.”*
+2. Uczniowie kolejno odpowiadają na pytania. Grupa zapisuje wspólne wnioski oraz różne pomysły i opinie, które pojawiły się podczas rozmowy.
+3. Każda grupa przedstawia swoje wnioski całej klasie.
+4. Na zakończenie zapytaj:
+   - *„Czy trudno było osiągnąć porozumienie?”*
+   - *„Czy podczas dyskusji czyjś punkt widzenia się zmienił?”*
 
 ## Warianty
 
-### Wariant 1 – Plakat
-
-- grupa zapisuje odpowiedzi na dużym arkuszu papieru,
-- i dodaje słowa kluczowe lub rysunki.
-
-### Wariant 2 – Mapa myśli
-
-- uczniowie zapisują skojarzenia wokół ilustracji.
-
-### Wariant 3 – Stwórzcie własne pytanie
-
-- grupa wymyśla dodatkowe pytanie do karty i zadaje je klasie.
-
-> 💡 **Z kartami cyfrowymi:** wylosuj na **Stole z kartami** po jednej karcie z obrazkiem i 2–3 pytania dla każdej grupy po kolei; poproś grupy o zanotowanie numeru karty i pytań przed rozmową.
+- **Wariant 1 – Plakat:** Zapiszcie wnioski grupy na plakacie, wykorzystując słowa kluczowe i symbole.
+- **Wariant 2 – Mapa myśli:** Stwórzcie mapę skojarzeń, której punktem wyjścia będzie ilustracja znajdująca się na środku.
+- **Wariant 3 – Wymyśl własne pytanie:** Wymyślcie nowe pytanie do wybranej karty i zadajcie je innej grupie.

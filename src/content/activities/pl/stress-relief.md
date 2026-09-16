@@ -1,43 +1,24 @@
 ---
-title: Rozładowanie stresu
-format: praca indywidualna lub w parach
-time: 15–20 minut
-goals:
-  - rozpoznawanie emocji
-  - budowanie poczucia kontroli
-  - poznawanie strategii radzenia sobie
-order: 6
+title: "Redukowanie stresu"
+format: "Praca indywidualna lub w parach"
+time: "15–20 minut"
+goal: "Rozpoznawanie źródeł napięcia, rozwijanie umiejętności regulowania emocji oraz wzmacnianie poczucia sprawczości."
+order: 15
 ---
 
 ## Przygotowanie
 
-- rozłóż karty na stole lub na podłodze.
+Rozłóż karty granatowe na środku stołu.
 
-## Przebieg
+## Instrukcja
 
-1. Powiedz: *„Znajdźcie karty, które pokazują trudne emocje, stres lub napięcie.”*
-2. Następnie poproś: *„Teraz wybierzcie kartę, która przedstawia spokój, ulgę lub bezpieczeństwo.”*
-3. Zadaj pytanie: *„Co może pomóc przejść z jednego stanu do drugiego?”*
-4. Uczniowie zapisują pomysły, rozmawiają w parach lub tworzą własny plan działania.
-5. Chętni mogą podzielić się swoimi pomysłami.
+1. Powiedz: *„Znajdźcie kartę, która przedstawia stres, napięcie lub trudne emocje.”*
+2. Następnie powiedz: *„Teraz wybierzcie kartę, która przedstawia spokój, poczucie bezpieczeństwa lub ulgę.”*
+3. Zapytaj: *„Jakie konkretne działanie może pomóc komuś przejść od pierwszego stanu do drugiego?”*
+4. Uczniowie zapisują swoje pomysły, omawiają je w parach lub tworzą indywidualny plan działania.
 
 ## Warianty
 
-### Wariant 1 – Trzy kroki
-
-Uczeń zapisuje:
-
-1. Co mnie stresuje?
-2. Co mogę zrobić przed trudną sytuacją?
-3. Co pomaga mi się uspokoić?
-
-### Wariant 2 – Droga do spokoju
-
-- uczeń rysuje drogę między dwiema kartami,
-- i zapisuje po drodze sposoby radzenia sobie.
-
-### Wariant 3 – Mój zasób
-
-- uczeń kończy zdanie: *„Pomaga mi, gdy…”*
-
-> 💡 **Z kartami cyfrowymi:** otwórz **Galerię**, aby wszystkie obrazki były widoczne jednocześnie, i poproś uczniów o podanie numerów karty „trudnej” i karty „spokojnej”, zanim porozmawiacie o drodze między nimi.
+- **Wariant 1 – Trzy kroki:** Uczniowie odpowiadają na pytania: *„Co wywołuje u mnie stres?”*, *„Co mogę zrobić, zanim stres się nasili?”*, *„Co pomaga mi się uspokoić?”*
+- **Wariant 2 – Droga do spokoju:** Uczniowie rysują linię łączącą obie karty i zapisują wzdłuż niej kolejne kroki, które mogą pomóc w radzeniu sobie z trudną sytuacją.
+- **Wariant 3 – Zdanie o wsparciu:** Uczniowie kończą zdanie: *„Pomaga mi, kiedy…”*

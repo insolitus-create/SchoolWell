@@ -53,7 +53,8 @@ export interface UIStrings {
     avoidItems: string[];
     format: string;
     time: string;
-    goals: string;
+    goal: string;
+    app: string;
     back: string;
   };
   footer: {
@@ -148,7 +149,7 @@ export const ui: Record<Locale, UIStrings> = {
       galleryTitle: 'Gallery',
       galleryDesc: 'Browse all 22 picture cards and 18 questions at your own pace.',
       activitiesTitle: 'Activities',
-      activitiesDesc: 'Seven ready-to-use activity scenarios for lessons, group and individual sessions.',
+      activitiesDesc: '23 ready-to-use activities for lessons, group and individual sessions.',
       open: 'Open',
     },
     table: {
@@ -199,7 +200,8 @@ export const ui: Record<Locale, UIStrings> = {
       ],
       format: 'Format',
       time: 'Time',
-      goals: 'Goals',
+      goal: 'Goal',
+      app: 'Using the app',
       back: 'All activities',
     },
     footer: {
@@ -302,7 +304,7 @@ export const ui: Record<Locale, UIStrings> = {
       galleryTitle: 'Galeria',
       galleryDesc: 'Przeglądaj wszystkie 22 karty z ilustracjami i 18 pytań we własnym tempie.',
       activitiesTitle: 'Ćwiczenia',
-      activitiesDesc: 'Siedem gotowych ćwiczeń na lekcje oraz spotkania grupowe i indywidualne.',
+      activitiesDesc: '23 gotowe ćwiczenia na lekcje oraz spotkania grupowe i indywidualne.',
       open: 'Otwórz',
     },
     table: {
@@ -353,7 +355,8 @@ export const ui: Record<Locale, UIStrings> = {
       ],
       format: 'Forma',
       time: 'Czas',
-      goals: 'Cele',
+      goal: 'Cel',
+      app: 'Wykorzystanie aplikacji',
       back: 'Wszystkie ćwiczenia',
     },
     footer: {
@@ -456,7 +459,7 @@ export const ui: Record<Locale, UIStrings> = {
       galleryTitle: 'Galerie',
       galleryDesc: 'Răsfoiește toate cele 22 de carduri cu ilustrații și cele 18 întrebări în ritmul tău.',
       activitiesTitle: 'Activități',
-      activitiesDesc: 'Șapte scenarii de activități gata de folosit pentru lecții și întâlniri de grup sau individuale.',
+      activitiesDesc: '23 de activități gata de folosit pentru lecții și întâlniri de grup sau individuale.',
       open: 'Deschide',
     },
     table: {
@@ -507,7 +510,8 @@ export const ui: Record<Locale, UIStrings> = {
       ],
       format: 'Format',
       time: 'Timp',
-      goals: 'Obiective',
+      goal: 'Obiectiv',
+      app: 'Utilizarea aplicației',
       back: 'Toate activitățile',
     },
     footer: {

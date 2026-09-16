@@ -1,43 +1,23 @@
 ---
-title: Cardul meu cu emoții
-format: lucru individual
-time: aproximativ 25 de minute
-goals:
-  - exprimarea emoțiilor și construirea sentimentului de siguranță
-  - dezvoltarea creativității
-order: 7
+title: "Cartonașul meu cu emoții"
+format: "Lucru creativ individual"
+time: "Aproximativ 25 de minute"
+goal: "Autoexprimarea creativă, o mai bună înțelegere și integrare a propriilor emoții și consolidarea sentimentului de autonomie."
+order: 16
 ---
 
 ## Pregătire
 
-Pregătește:
+Foi de hârtie, markere, creioane colorate, foarfece și materiale pentru realizarea unui colaj.
 
-- hârtie, foarfece,
-- creioane colorate, markere,
-- reviste sau hârtie colorată.
+## Instrucțiuni
 
-## Desfășurare
-
-1. Spune: *„Acum veți crea propriul vostru card cu emoții.”*
-2. Elevii pot desena:
-   - o emoție, o situație, starea lor,
-   - ceva important pentru ei,
-   - punctul lor forte sau un sprijin.
-3. După ce termină, elevii își arată cardurile, le dau un titlu și răspund la carduri verzi cu întrebări alese.
-4. La final, mulțumește tuturor pentru muncă și pentru răspunsuri.
+1. Spuneți: *„Creați-vă propriul cartonaș cu emoții, care să reprezinte un sentiment ales, o calitate personală sau felul în care vă simțiți acum.”*
+2. Elevii dau un titlu cartonașelor lor. De asemenea, pot alege o întrebare de pe un cartonaș verde și pot răspunde la ea în legătură cu lucrarea lor.
+3. Cartonașele finalizate pot fi prezentate, voluntar, pe panoul clasei sau pot forma o galerie comună.
 
 ## Variante
 
-### Varianta 1 – Ziua mea
-
-- elevul își ilustrează pe card ziua sau săptămâna.
-
-### Varianta 2 – Superputerea mea
-
-- elevul prezintă un punct forte personal sau ceva care îi dă putere.
-
-### Varianta 3 – Colaj de emoții
-
-- în loc să deseneze, elevii creează un colaj din decupaje din reviste și materiale de artă.
-
-> 💡 **Cu cardurile digitale:** răsfoiți mai întâi împreună **Galeria** pentru inspirație, apoi trageți carduri cu întrebări pe **Masa cu carduri**, la care elevii răspund vorbind despre cardurile lor gata făcute.
+- **Opțiunea 1 – Ziua mea:** Ilustrați desfășurarea unei zile obișnuite la școală, arătând diferitele momente și emoțiile care le însoțesc.
+- **Opțiunea 2 – Superputerea mea:** Prezentați-vă puterea interioară, abilitatea sau resursa care vă ajută să faceți față dificultăților.
+- **Opțiunea 3 – Colaj:** Creați un cartonaș cu emoții folosind tehnica colajului, cu imagini și fragmente din reviste vechi.

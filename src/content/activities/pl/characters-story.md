@@ -1,46 +1,26 @@
 ---
-title: Historia postaci
-format: pary lub grupy
-time: 15–20 minut
-goals:
-  - rozwijanie wyobraźni i empatii
-  - zachęcanie do współpracy
-  - ćwiczenie umiejętności komunikacyjnych
-order: 4
+title: "Historia bohatera"
+format: "Praca w parach / małych grupach"
+time: "15–20 minut"
+goal: "Rozwijanie umiejętności tworzenia historii, empatii oraz współpracy i komunikacji w grupie."
+order: 11
 ---
 
 ## Przygotowanie
 
-- podziel uczniów na pary lub małe grupy,
-- każda grupa otrzymuje jedną granatową kartę.
+Każda grupa otrzymuje 1 kartę granatową.
 
-## Przebieg
+## Instrukcja
 
-1. Powiedz: *„Waszym zadaniem jest stworzenie historii o postaci z ilustracji.”*
-2. Poproś grupy o wspólne odpowiedzenie na pytania:
-   - Kim jest ta postać?
-   - Ile ma lat?
-   - Co mogło się wydarzyć?
-   - Co czuje?
-   - Czego potrzebuje?
+1. Powiedz: *„Waszym zadaniem jest stworzenie historii o bohaterze przedstawionym na tej ilustracji.”*
+2. Grupy wspólnie zastanawiają się nad pytaniami:
+   - Kim jest ta postać i co mogło się wydarzyć?
+   - Co czuje i czego w tej chwili potrzebuje?
    - Co wydarzy się dalej?
-3. Daj grupom kilka minut na rozmowę.
-4. Następnie każda grupa przedstawia swoją historię.
-5. Po prezentacji możesz zapytać klasę: *„Czy ktoś wyobraził sobie tę historię inaczej?”*
+3. Każda grupa krótko przedstawia swoją historię na forum klasy.
 
 ## Warianty
 
-### Wariant 1 – Dialog postaci
-
-- grupa losuje dwie karty,
-- uczniowie tworzą rozmowę między postaciami.
-
-### Wariant 2 – Mini scenka
-
-- uczniowie odgrywają krótką scenkę bez przygotowania.
-
-### Wariant 3 – Kolejny rozdział
-
-- grupa rysuje lub opisuje, co wydarzyło się później.
-
-> 💡 **Z kartami cyfrowymi:** wylosuj po jednej karcie z obrazkiem dla każdej grupy na **Stole z kartami** (zanotujcie jej numer) albo pozwól każdej grupie wybrać kartę w **Galerii**.
+- **Wariant 1 – Dialog bohaterów:** Wylosujcie dwie karty granatowe i napiszcie rozmowę pomiędzy przedstawionymi na nich postaciami.
+- **Wariant 2 – Mini scenka:** Odegrajcie krótką, około 30-sekundową improwizowaną scenkę inspirowaną ilustracją.
+- **Wariant 3 – Kolejny rozdział:** Narysujcie lub napiszcie dalszy ciąg historii – scenę, która mogłaby wydarzyć się później.

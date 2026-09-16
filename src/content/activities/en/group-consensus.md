@@ -1,43 +1,26 @@
 ---
-title: Group Consensus
-format: small groups
-time: approximately 20 minutes
-goals:
-  - cooperation
-  - listening to others
-  - learning about different perspectives
-order: 5
+title: "Common Statement"
+format: "Work in small groups (3–5 people)"
+time: "20 minutes"
+goal: "Developing discussion skills, active listening and taking into account different perspectives."
+order: 12
 ---
 
 ## Preparation
 
-- divide the class into groups of 3–5 students,
-- each group receives:
-  - one navy blue card,
-  - 2–3 green question cards,
-  - a sheet of paper.
+Each group receives 1 navy blue card, 2–3 green cards and a sheet of paper.
 
-## Steps
+## Instructions
 
-1. Say: *"Your task is to agree on answers together. It is important that everyone has a chance to share their opinion."*
-2. Students take turns answering the questions.
-3. The group chooses shared answers or writes down different ideas.
-4. After a few minutes, the groups present their conclusions.
-5. At the end, ask: *"Was it difficult to reach a common answer?"*, *"Did anyone change their mind after the discussion?"*
+1. Say: *“Your task is to find answers to these questions together. Make sure everyone has the opportunity to speak.”*
+2. Students take turns answering the questions. The group writes down their collective conclusions and the various ideas and opinions that emerged during the conversation.
+3. Each group presents its conclusions to the whole class.
+4. Finally, ask:
+   - *“Was it difficult to reach an agreement?”*
+   - *“Did anyone’s point of view change during the discussion?”*
 
-## Variations
+## Variants
 
-### Variation 1 – Poster
-
-- the group writes their answers on a large sheet of paper,
-- and adds keywords or drawings.
-
-### Variation 2 – Mind Map
-
-- students write associations around the illustration.
-
-### Variation 3 – Create Your Own Question
-
-- the group creates an additional question for the card and asks it to the class.
-
-> 💡 **With the digital cards:** draw one picture card and 2–3 questions on the **Card table** for each group in turn, and ask groups to note down their card number and questions before discussing.
+- **Option 1 – Poster:** Write down the group’s conclusions on a poster, using keywords and symbols.
+- **Option 2 – Mind map:** Create a map of associations, the starting point of which will be the illustration in the middle.
+- **Option 3 – Make up your own question:** Make up a new question for the chosen card and ask it to another group.

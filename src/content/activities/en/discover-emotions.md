@@ -1,46 +1,24 @@
 ---
-title: Discover Emotions
-format: whole class / group
-time: 10–15 minutes
-goals:
-  - help students become familiar with the cards
-  - encourage conversations about emotions
-  - develop associations and imagination
-order: 1
+title: "Discovering Emotions"
+format: "Whole class / group work"
+time: "10–15 minutes"
+goal: "Developing vocabulary related to emotions and associative thinking."
+order: 5
 ---
 
 ## Preparation
 
-- prepare the navy blue and green card decks,
-- sit in a circle or at tables,
-- shuffle both decks separately.
+Prepare navy blue and green cards.
 
-## Steps
+## Instructions
 
-1. Tell the students: *"In a moment, we will work with emotion cards. There are no right or wrong answers here. Everyone can respond in their own way."*
-2. Ask one student to draw a navy blue card.
-3. The student then draws one green question card.
-4. Read the question aloud or ask the student to read it.
-5. The student answers using the illustration as a reference.
-6. If the student does not want to answer, they may pass the question to someone else, answer with one word, or simply name the emotion shown in the picture.
-7. After the response, thank the student. You may ask follow-up questions such as: *"What else caught your attention?"*, *"Does anyone see it differently?"*
-8. Repeat the activity with other students.
+1. Each student draws one navy blue card.
+2. Ask students to look at the illustration for a few seconds and think: *“What does this card tell me today?”*
+3. Students then pair up and spend about a minute sharing their first thought or association.
+4. Each pair draws one green card and together answers the question on it.
+5. Finally, ask: *“Did the answer to the question change the way you look at the card you chose?”*
 
-## Variations
+## Variants
 
-### Variation 1 – One Card for Everyone
-
-- show one card to the entire class,
-- different students draw different green question cards and answer them.
-
-### Variation 2 – Pair Work
-
-- each pair receives one navy blue card and 2–3 green question cards,
-- students first discuss the questions together,
-- volunteers may later share their responses with the class.
-
-### Variation 3 – Quick Associations
-
-- the student responds with only one word or a short sentence.
-
-> 💡 **With the digital cards:** open the **Card table**, project it on the board, and let students take turns clicking the decks — first a picture card, then a question card.
+- **Option 1 – My word:** After finishing, students choose one word they would like to take with them to today’s class.
+- **Option 2 – Common card:** The pair chooses one navy blue card and then together creates a short slogan or sentence that best expresses its meaning.
