@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { locales, type Locale } from '../../i18n/utils';
+import { locales, localeNames, withBase, type Locale } from '../../i18n/utils';
 import { ui, licenceUrl } from '../../i18n/ui';
 
 export function getStaticPaths() {
@@ -9,33 +9,80 @@ export function getStaticPaths() {
 
 const lang = Astro.params.lang as Locale;
 const t = ui[lang];
+const d = t.downloads;
 
-/** Downloadable files live in public/downloads/ — add entries here as they are published. */
-const files: { href: string; label: string; meta: string }[] = [];
+interface DownloadFile {
+  /** File name under public/downloads/. */
+  file: string;
+  label: string;
+  /** Short badge, e.g. the guide's language. */
+  badge: string;
+  size: string;
+}
+
+// Every file is listed on every locale; the guide in the current language comes first.
+const guideLocales = [lang, ...locales.filter((l) => l !== lang)];
+
+const groups: { title: string; emoji: string; files: DownloadFile[] }[] = [
+  {
+    title: d.guidesTitle,
+    emoji: '📘',
+    files: guideLocales.map((l) => ({
+      file: `schoolwell-teachers-guide-${l}.pdf`,
+      label: ui[l].downloads.guide,
+      badge: `${l.toUpperCase()} · ${localeNames[l]}`,
+      size: { pl: '13.5 MB', en: '13.3 MB', ro: '13.4 MB' }[l],
+    })),
+  },
+  {
+    title: d.cardsTitle,
+    emoji: '🖨️',
+    files: [
+      { file: 'schoolwell-picture-cards-fronts.pdf', label: d.pictureFronts, badge: d.printReady, size: '30.4 MB' },
+      { file: 'schoolwell-picture-cards-backs.pdf', label: d.pictureBacks, badge: d.printReady, size: '0.3 MB' },
+      { file: 'schoolwell-question-cards-fronts.pdf', label: d.questionFronts, badge: d.printReady, size: '4.6 MB' },
+      { file: 'schoolwell-question-cards-backs.pdf', label: d.questionBacks, badge: d.printReady, size: '0.3 MB' },
+    ],
+  },
+];
 ---
 
-<Base lang={lang} title={t.downloads.title} description={t.downloads.lead}>
+<Base lang={lang} title={d.title} description={d.lead}>
   <div class="mx-auto max-w-3xl px-4 py-10">
-    <h1 class="text-3xl font-extrabold tracking-tight">{t.downloads.title}</h1>
-    <p class="mt-6 text-lg leading-relaxed">{t.downloads.lead}</p>
+    <h1 class="text-3xl font-extrabold tracking-tight">{d.title}</h1>
+    <p class="mt-6 text-lg leading-relaxed">{d.lead}</p>
 
     {
-      files.length > 0 ? (
-        <ul class="mt-8 divide-y divide-navy-100 rounded-xl border border-navy-100 bg-white">
-          {files.map((file) => (
-            <li class="flex flex-wrap items-center gap-x-4 gap-y-1 px-5 py-3">
-              <a href={file.href} download class="font-semibold text-navy-700 underline">
-                {file.label}
-              </a>
-              <span class="text-sm text-navy-600">{file.meta}</span>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p class="mt-8 rounded-xl border border-dashed border-navy-200 bg-white px-5 py-6 text-navy-600">
-          {t.downloads.empty}
-        </p>
-      )
+      groups.map((group) => (
+        <section class="mt-10">
+          <h2 class="flex items-center gap-2 text-xl font-bold">
+            <span aria-hidden="true">{group.emoji}</span>
+            {group.title}
+          </h2>
+          <ul class="mt-4 divide-y divide-navy-100 rounded-xl border border-navy-100 bg-white">
+            {group.files.map((file) => (
+              <li class="flex flex-wrap items-center gap-x-4 gap-y-2 px-5 py-4">
+                <span class="flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-navy-50 text-xs font-bold text-navy-700">
+                  PDF
+                </span>
+                <span class="flex min-w-0 flex-1 flex-col">
+                  <span class="font-semibold text-navy-900">{file.label}</span>
+                  <span class="text-sm text-navy-600">
+                    {file.badge} · {file.size}
+                  </span>
+                </span>
+                <a
+                  href={withBase(`downloads/${file.file}`)}
+                  download
+                  class="rounded-full bg-leaf-500 px-4 py-1.5 text-sm font-semibold text-navy-900 transition hover:bg-leaf-400"
+                >
+                  {d.download}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
     }
 
     <p class="mt-8 text-sm text-navy-600">

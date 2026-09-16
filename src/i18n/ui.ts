@@ -77,8 +77,52 @@ export interface UIStrings {
     /** Third-party materials (EU emblem etc.) are not covered by CC BY. */
     licenceExclusion: string;
   };
-  about: { title: string; lead: string; partnersTitle: string; programmeTitle: string };
-  downloads: { title: string; lead: string; empty: string };
+  about: {
+    title: string;
+    /** Page meta description. */
+    lead: string;
+    introTitle: string;
+    intro: string[];
+    aimsTitle: string;
+    aimsLead: string;
+    /** Six aims, rendered as small blocks in this order. */
+    aims: string[];
+    resourcesTitle: string;
+    resourcesLead: string;
+    resourcesIncludes: string;
+    /** Picture cards, question cards, activities, digital tool. */
+    resources: { value?: string; label: string }[];
+    usageTitle: string;
+    usageLead: string;
+    /** Whole class, small groups, pairs, individually. */
+    usage: string[];
+    usageNote: string;
+    audienceTitle: string;
+    audienceLead: string;
+    /** Teachers, class teachers, counsellors, psychologists, pedagogues, other professionals. */
+    audience: string[];
+    partnersTitle: string;
+    coordinatorRole: string;
+    partnerRole: string;
+    website: string;
+    infoTitle: string;
+    programmeLabel: string;
+    actionLabel: string;
+    projectWebsiteLabel: string;
+  };
+  downloads: {
+    title: string;
+    lead: string;
+    guidesTitle: string;
+    guide: string;
+    cardsTitle: string;
+    pictureFronts: string;
+    pictureBacks: string;
+    questionFronts: string;
+    questionBacks: string;
+    printReady: string;
+    download: string;
+  };
 }
 
 /** Erasmus+ identifiers stay untranslated across every locale. */
@@ -177,14 +221,67 @@ export const ui: Record<Locale, UIStrings> = {
     },
     about: {
       title: 'About the project',
-      lead: 'SchoolWell is an Erasmus+ small-scale partnership in school education, dedicated to promoting well-being at school.',
-      partnersTitle: 'Coordinator',
-      programmeTitle: 'Programme',
+      lead: 'SchoolWell is an Erasmus+ project focused on promoting emotional well-being in schools and supporting teachers in creating a safe and supportive learning environment.',
+      introTitle: 'Introduction',
+      intro: [
+        'SchoolWell is an Erasmus+ project focused on promoting emotional well-being in schools and supporting teachers in creating a safe and supportive learning environment.',
+        'The project recognises that school is not only a place for learning, but also a place where students experience emotions, build relationships, face challenges and develop social and emotional skills.',
+      ],
+      aimsTitle: 'Project aims',
+      aimsLead: 'The project aims to support students in:',
+      aims: [
+        'recognising and naming emotions',
+        'expressing emotions and needs',
+        'developing self-awareness and reflection',
+        'building empathy and positive relationships',
+        'improving communication and cooperation',
+        'developing healthy ways of coping with stress',
+      ],
+      resourcesTitle: 'SchoolWell resources',
+      resourcesLead:
+        'The main project result is a practical set of resources for teachers and other professionals working with children and young people.',
+      resourcesIncludes: 'It includes:',
+      resources: [
+        { value: '22', label: 'Picture Cards' },
+        { value: '18', label: 'Question Cards' },
+        { value: '23', label: 'practical activities in the Teacher’s Guide' },
+        { label: 'SchoolWell digital tool' },
+      ],
+      usageTitle: 'How the resources can be used',
+      usageLead: 'The resources can be used:',
+      usage: ['with the whole class', 'in small groups', 'in pairs', 'individually'],
+      usageNote: 'They can be adapted to different ages, group sizes and educational contexts.',
+      audienceTitle: 'Who is SchoolWell for?',
+      audienceLead: 'SchoolWell is designed for:',
+      audience: [
+        'teachers',
+        'class teachers',
+        'school counsellors',
+        'psychologists',
+        'pedagogues',
+        'other professionals working with children and young people',
+      ],
+      partnersTitle: 'Project partners',
+      coordinatorRole: 'Coordinator – Poland',
+      partnerRole: 'Project partner – Romania',
+      website: 'Official website',
+      infoTitle: 'Project information',
+      programmeLabel: 'Programme',
+      actionLabel: 'Action',
+      projectWebsiteLabel: 'Project website',
     },
     downloads: {
       title: 'Downloads',
-      lead: 'Printable versions of the SchoolWell cards and materials.',
-      empty: 'Downloadable files will be published here as the project progresses.',
+      lead: 'Printable versions of the SchoolWell cards and the Teacher’s Guide.',
+      guidesTitle: 'Teacher’s Guide',
+      guide: 'Teacher’s Guide – emotion cards with exercises',
+      cardsTitle: 'Cards – print-ready PDF',
+      pictureFronts: 'Picture Cards – fronts',
+      pictureBacks: 'Picture Cards – backs',
+      questionFronts: 'Question Cards – fronts',
+      questionBacks: 'Question Cards – backs',
+      printReady: 'print-ready',
+      download: 'Download',
     },
   },
   pl: {
@@ -194,7 +291,7 @@ export const ui: Record<Locale, UIStrings> = {
       home: 'Start',
       cards: 'Stół z kartami',
       gallery: 'Galeria',
-      activities: 'Aktywności',
+      activities: 'Ćwiczenia',
       about: 'O projekcie',
       downloads: 'Do pobrania',
     },
@@ -204,8 +301,8 @@ export const ui: Record<Locale, UIStrings> = {
       cardsDesc: 'Tasuj i losuj karty z obrazkami i pytaniami — tak jak z fizyczną talią. Stworzony z myślą o wyświetlaniu na projektorze.',
       galleryTitle: 'Galeria',
       galleryDesc: 'Przeglądaj wszystkie 22 karty z ilustracjami i 18 pytań we własnym tempie.',
-      activitiesTitle: 'Aktywności',
-      activitiesDesc: 'Siedem gotowych scenariuszy zajęć na lekcje oraz spotkania grupowe i indywidualne.',
+      activitiesTitle: 'Ćwiczenia',
+      activitiesDesc: 'Siedem gotowych ćwiczeń na lekcje oraz spotkania grupowe i indywidualne.',
       open: 'Otwórz',
     },
     table: {
@@ -229,7 +326,7 @@ export const ui: Record<Locale, UIStrings> = {
       close: 'Zamknij',
     },
     activities: {
-      title: 'Aktywności',
+      title: 'Ćwiczenia',
       lead: 'Scenariusze zajęć z wykorzystaniem kart — dostosuj je do wieku uczniów, wielkości grupy i dostępnego czasu.',
       guidelinesTitle: 'Zanim zaczniesz',
       sayTitle: 'Na początku warto powiedzieć uczniom:',
@@ -257,7 +354,7 @@ export const ui: Record<Locale, UIStrings> = {
       format: 'Forma',
       time: 'Czas',
       goals: 'Cele',
-      back: 'Wszystkie aktywności',
+      back: 'Wszystkie ćwiczenia',
     },
     footer: {
       strapline: 'SchoolWell – Promowanie dobrostanu w szkole',
@@ -278,14 +375,67 @@ export const ui: Record<Locale, UIStrings> = {
     },
     about: {
       title: 'O projekcie',
-      lead: 'SchoolWell to partnerstwo na małą skalę w edukacji szkolnej w programie Erasmus+, poświęcone promowaniu dobrostanu w szkole.',
-      partnersTitle: 'Koordynator',
-      programmeTitle: 'Program',
+      lead: 'SchoolWell to projekt Erasmus+ poświęcony wspieraniu dobrostanu emocjonalnego w szkołach oraz pomaganiu nauczycielom w tworzeniu bezpiecznego i wspierającego środowiska nauki.',
+      introTitle: 'Wprowadzenie',
+      intro: [
+        'SchoolWell to projekt Erasmus+ poświęcony wspieraniu dobrostanu emocjonalnego w szkołach oraz pomaganiu nauczycielom w tworzeniu bezpiecznego i wspierającego środowiska nauki.',
+        'Projekt wychodzi z założenia, że szkoła to nie tylko miejsce nauki, ale także miejsce, w którym uczniowie przeżywają emocje, budują relacje, mierzą się z wyzwaniami i rozwijają umiejętności społeczne i emocjonalne.',
+      ],
+      aimsTitle: 'Cele projektu',
+      aimsLead: 'Projekt ma wspierać uczniów w:',
+      aims: [
+        'rozpoznawaniu i nazywaniu emocji',
+        'wyrażaniu emocji i potrzeb',
+        'rozwijaniu samoświadomości i refleksji',
+        'budowaniu empatii i pozytywnych relacji',
+        'doskonaleniu komunikacji i współpracy',
+        'rozwijaniu zdrowych sposobów radzenia sobie ze stresem',
+      ],
+      resourcesTitle: 'Materiały SchoolWell',
+      resourcesLead:
+        'Głównym rezultatem projektu jest praktyczny zestaw materiałów dla nauczycieli i innych specjalistów pracujących z dziećmi i młodzieżą.',
+      resourcesIncludes: 'Zestaw obejmuje:',
+      resources: [
+        { value: '22', label: 'karty z ilustracjami' },
+        { value: '18', label: 'kart z pytaniami' },
+        { value: '23', label: 'praktyczne ćwiczenia w Przewodniku dla nauczycieli' },
+        { label: 'narzędzie cyfrowe SchoolWell' },
+      ],
+      usageTitle: 'Jak można korzystać z materiałów',
+      usageLead: 'Z materiałów można korzystać:',
+      usage: ['z całą klasą', 'w małych grupach', 'w parach', 'indywidualnie'],
+      usageNote: 'Można je dostosować do wieku uczniów, wielkości grupy i kontekstu edukacyjnego.',
+      audienceTitle: 'Dla kogo jest SchoolWell?',
+      audienceLead: 'SchoolWell jest przeznaczony dla:',
+      audience: [
+        'nauczycieli',
+        'wychowawców',
+        'szkolnych doradców',
+        'psychologów',
+        'pedagogów',
+        'innych specjalistów pracujących z dziećmi i młodzieżą',
+      ],
+      partnersTitle: 'Partnerzy projektu',
+      coordinatorRole: 'Koordynator – Polska',
+      partnerRole: 'Partner projektu – Rumunia',
+      website: 'Oficjalna strona',
+      infoTitle: 'Informacje o projekcie',
+      programmeLabel: 'Program',
+      actionLabel: 'Akcja',
+      projectWebsiteLabel: 'Strona projektu',
     },
     downloads: {
       title: 'Do pobrania',
-      lead: 'Wersje kart i materiałów SchoolWell do wydruku.',
-      empty: 'Pliki do pobrania będą publikowane tutaj w miarę postępów projektu.',
+      lead: 'Wersje kart SchoolWell do wydruku oraz Przewodnik dla nauczycieli.',
+      guidesTitle: 'Przewodnik dla nauczycieli',
+      guide: 'Przewodnik dla nauczycieli – karty emocji z ćwiczeniami',
+      cardsTitle: 'Karty – PDF do druku',
+      pictureFronts: 'Karty z ilustracjami – awersy',
+      pictureBacks: 'Karty z ilustracjami – rewersy',
+      questionFronts: 'Karty z pytaniami – awersy',
+      questionBacks: 'Karty z pytaniami – rewersy',
+      printReady: 'do druku',
+      download: 'Pobierz',
     },
   },
   ro: {
@@ -379,14 +529,67 @@ export const ui: Record<Locale, UIStrings> = {
     },
     about: {
       title: 'Despre proiect',
-      lead: 'SchoolWell este un parteneriat Erasmus+ la scară mică în educația școlară, dedicat promovării stării de bine la școală.',
-      partnersTitle: 'Coordonator',
-      programmeTitle: 'Program',
+      lead: 'SchoolWell este un proiect Erasmus+ axat pe promovarea stării de bine emoționale în școli și pe sprijinirea profesorilor în crearea unui mediu de învățare sigur și încurajator.',
+      introTitle: 'Introducere',
+      intro: [
+        'SchoolWell este un proiect Erasmus+ axat pe promovarea stării de bine emoționale în școli și pe sprijinirea profesorilor în crearea unui mediu de învățare sigur și încurajator.',
+        'Proiectul pornește de la ideea că școala nu este doar un loc de învățare, ci și un loc în care elevii trăiesc emoții, construiesc relații, se confruntă cu provocări și își dezvoltă abilitățile sociale și emoționale.',
+      ],
+      aimsTitle: 'Obiectivele proiectului',
+      aimsLead: 'Proiectul își propune să îi sprijine pe elevi în:',
+      aims: [
+        'recunoașterea și numirea emoțiilor',
+        'exprimarea emoțiilor și a nevoilor',
+        'dezvoltarea conștientizării de sine și a reflecției',
+        'construirea empatiei și a relațiilor pozitive',
+        'îmbunătățirea comunicării și a cooperării',
+        'dezvoltarea unor modalități sănătoase de gestionare a stresului',
+      ],
+      resourcesTitle: 'Resursele SchoolWell',
+      resourcesLead:
+        'Principalul rezultat al proiectului este un set practic de resurse pentru profesori și alți specialiști care lucrează cu copii și tineri.',
+      resourcesIncludes: 'Setul include:',
+      resources: [
+        { value: '22', label: 'de carduri cu imagini' },
+        { value: '18', label: 'carduri cu întrebări' },
+        { value: '23', label: 'de activități practice în Ghidul profesorului' },
+        { label: 'instrumentul digital SchoolWell' },
+      ],
+      usageTitle: 'Cum pot fi folosite resursele',
+      usageLead: 'Resursele pot fi folosite:',
+      usage: ['cu întreaga clasă', 'în grupuri mici', 'în perechi', 'individual'],
+      usageNote: 'Pot fi adaptate la diferite vârste, mărimi ale grupului și contexte educaționale.',
+      audienceTitle: 'Pentru cine este SchoolWell?',
+      audienceLead: 'SchoolWell se adresează:',
+      audience: [
+        'profesorilor',
+        'diriginților',
+        'consilierilor școlari',
+        'psihologilor',
+        'pedagogilor',
+        'altor specialiști care lucrează cu copii și tineri',
+      ],
+      partnersTitle: 'Partenerii proiectului',
+      coordinatorRole: 'Coordonator – Polonia',
+      partnerRole: 'Partener de proiect – România',
+      website: 'Site oficial',
+      infoTitle: 'Informații despre proiect',
+      programmeLabel: 'Program',
+      actionLabel: 'Acțiune',
+      projectWebsiteLabel: 'Site-ul proiectului',
     },
     downloads: {
       title: 'Descărcări',
-      lead: 'Versiuni printabile ale cardurilor și materialelor SchoolWell.',
-      empty: 'Fișierele pentru descărcare vor fi publicate aici pe măsura derulării proiectului.',
+      lead: 'Versiuni printabile ale cardurilor SchoolWell și Ghidul profesorului.',
+      guidesTitle: 'Ghidul profesorului',
+      guide: 'Ghidul profesorului – fișe cu exerciții',
+      cardsTitle: 'Carduri – PDF pentru tipar',
+      pictureFronts: 'Carduri cu imagini – față',
+      pictureBacks: 'Carduri cu imagini – verso',
+      questionFronts: 'Carduri cu întrebări – față',
+      questionBacks: 'Carduri cu întrebări – verso',
+      printReady: 'pentru tipar',
+      download: 'Descarcă',
     },
   },
 };

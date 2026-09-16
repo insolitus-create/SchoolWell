@@ -1,7 +1,7 @@
 import type { Locale } from '../i18n/utils';
 
 export interface QuestionCard {
-  /** Number printed on the physical card (25–42). */
+  /** Card number shown on the site (1–18); the physical cards are printed as 25–42. */
   id: number;
   text: Record<Locale, string>;
 }
@@ -9,7 +9,7 @@ export interface QuestionCard {
 // Transcribed verbatim from the physical green cards (assets/green/25–42.png).
 export const questions: QuestionCard[] = [
   {
-    id: 25,
+    id: 1,
     text: {
       pl: 'Znajdź na obrazku jeden szczegół (np. kreskę, cień, element tła), który najbardziej pasuje do tej emocji.',
       ro: 'Găsește în imagine un detaliu (de ex. o linie, o umbră, un element din fundal) care se potrivește cel mai bine cu această emoție.',
@@ -17,7 +17,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 26,
+    id: 2,
     text: {
       pl: 'Jakie emocje widzisz na tej karcie? Czy to jedna emocja czy więcej?',
       ro: 'Ce emoții vezi în această imagine? Este o singură emoție sau mai multe?',
@@ -25,7 +25,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 27,
+    id: 3,
     text: {
       pl: 'Co mogło się wydarzyć, że postać z karty tak się czuje?',
       ro: 'Ce s-ar fi putut întâmpla ca personajul să se simtă așa?',
@@ -33,7 +33,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 28,
+    id: 4,
     text: {
       pl: 'W jakiej sytuacji pojawia się taka emocja? Czy to emocja przyjemna czy trudna?',
       ro: 'În ce situație apare această emoție? Este o emoție plăcută sau dificilă?',
@@ -41,7 +41,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 29,
+    id: 5,
     text: {
       pl: 'Co ta postać mogłaby powiedzieć? Jaki miałaby głos (cichy, głośny, szybki)?',
       ro: 'Ce ar putea spune acest personaj? Cum ar suna vocea lui/ei (încet, tare, rapid)?',
@@ -49,7 +49,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 30,
+    id: 6,
     text: {
       pl: 'Jaki tytuł mogłaby mieć ta karta? Dlaczego taki?',
       ro: 'Ce titlu ar putea avea această imagine? De ce?',
@@ -57,7 +57,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 31,
+    id: 7,
     text: {
       pl: 'Jak myślisz, co czuje ta postać? Gdzie w ciele można czuć tę emocję?',
       ro: 'Ce crezi că simte acest personaj? Unde în corp se poate simți această emoție?',
@@ -65,7 +65,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 32,
+    id: 8,
     text: {
       pl: 'Co mogło się wydarzyć chwilę wcześniej?',
       ro: 'Ce s-ar fi putut întâmpla cu puțin timp înainte?',
@@ -73,7 +73,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 33,
+    id: 9,
     text: {
       pl: 'Co może wydarzyć się za chwilę?',
       ro: 'Ce s-ar putea întâmpla în continuare?',
@@ -81,7 +81,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 34,
+    id: 10,
     text: {
       pl: 'Czy postać z karty czegoś teraz potrzebuje?',
       ro: 'Are personajul nevoie de ceva acum?',
@@ -89,7 +89,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 35,
+    id: 11,
     text: {
       pl: 'Co ta postać chciałaby usłyszeć?',
       ro: 'Ce ar dori acest personaj să audă?',
@@ -97,7 +97,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 36,
+    id: 12,
     text: {
       pl: 'Gdyby ta emocja była kolorem – jaki by to był kolor?',
       ro: 'Dacă această emoție ar fi o culoare – ce culoare ar fi?',
@@ -105,7 +105,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 37,
+    id: 13,
     text: {
       pl: 'Gdyby ta emocja była zwierzęciem – jakie by to było zwierzę?',
       ro: 'Dacă această emoție ar fi un animal – ce animal ar fi?',
@@ -113,7 +113,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 38,
+    id: 14,
     text: {
       pl: 'Gdyby ta emocja była pogodą – co by to było?',
       ro: 'Dacă această emoție ar fi o vreme – cum ar fi?',
@@ -121,7 +121,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 39,
+    id: 15,
     text: {
       pl: 'Czy ta emocja jest silna czy słaba? Czy trwa krótko czy długo?',
       ro: 'Este această emoție puternică sau slabă? Durează puțin sau mult?',
@@ -129,7 +129,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 40,
+    id: 16,
     text: {
       pl: 'Czy ta emocja może się zmienić?',
       ro: 'Se poate schimba această emoție?',
@@ -137,7 +137,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 41,
+    id: 17,
     text: {
       pl: 'Wymyśl historię do tej karty. Nadaj tej historii tytuł. Czy ktoś jeszcze mógłby się tu pojawić?',
       ro: 'Inventează o poveste pentru această imagine. Dă un titlu acestei povești. Ar mai putea apărea cineva aici?',
@@ -145,7 +145,7 @@ export const questions: QuestionCard[] = [
     },
   },
   {
-    id: 42,
+    id: 18,
     text: {
       pl: 'Co powiedziałbyś / powiedziałabyś postaci z obrazka?',
       ro: 'Ce i-ai spune personajului din imagine?',
